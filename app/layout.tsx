@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import Footer from '../components/Footer'; 
 
 export const metadata: Metadata = {
-  title: 'Portal de Notícias - CRUD',
-  description: 'Aplicação Full-Stack de notícias com Next.js e MongoDB.',
+  title: 'Portal de Notícias Skibidi',
+  description: 'Api de notícias com Next.js e MongoDB.',
 };
 
 export default function RootLayout({

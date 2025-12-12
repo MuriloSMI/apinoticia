@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import DeleteButton from '../components/DeleteButton';
 
 async function fetchNoticias() {
-    const API_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://apinews-rosy.vercel.app/';
+    const API_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://apinoticia.vercel.app/';
     try {
         const response = await fetch(`${API_URL}/api/noticias`, {
             cache: 'no-store'
@@ -100,3 +100,4 @@ export default function Home() {
     );
 
 }
+
